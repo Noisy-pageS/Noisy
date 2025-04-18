@@ -107,40 +107,7 @@
 </head>
 <body>
 
-<section id="rezerwacja">
-  <h2>Rezerwacja Online</h2>
-  <p>Wypełnij formularz, a skontaktujemy się z Tobą w celu potwierdzenia terminu.</p>
-  <form onsubmit="return validateBookingForm()">
-    <input type="text" id="name" placeholder="Imię i nazwisko" required>
-    <input type="email" id="email" placeholder="Email" required>
-    <select id="service" required>
-      <option value="">Wybierz usługę</option>
-      <option>Diagnostyka komputerowa</option>
-      <option>Wymiana oleju i filtrów</option>
-      <option>Naprawa hamulców</option>
-      <option>Serwis klimatyzacji</option>
-    </select>
-    <input type="date" id="date" required>
-    <input type="time" id="time" required>
-    <button type="submit">Zarezerwuj termin</button>
-  </form>
-</section>
 
-<section id="opinie">
-  <h2>Opinie Klientów</h2>
-  <blockquote>
-    "Świetna obsługa! Auto naprawione szybko i profesjonalnie. Polecam!"<br>
-    <strong>- Jan Kowalski</strong>
-  </blockquote>
-  <blockquote>
-    "Najlepszy warsztat w okolicy. Fachowa pomoc i dobre ceny."<br>
-    <strong>- Anna Nowak</strong>
-  </blockquote>
-  <blockquote>
-    "Miła obsługa, szybki termin i rzetelne podejście do klienta."<br>
-    <strong>- Michał Zieliński</strong>
-  </blockquote>
-</section>
 
 <!-- Dodaj to w <script> -->
 <script>
@@ -218,6 +185,41 @@
       width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
     </iframe>
   </div>
+</section>
+
+<section ="rezerwacja">
+  <h2>Rezerwacja Online</h2>
+  <p>Wypełnij formularz, a skontaktujemy się z Tobą w celu potwierdzenia terminu.</p>
+  <form onsubmit="return validateBookingForm()">
+    <input type="text" id="name" placeholder="Imię i nazwisko" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <select id="service" required>
+      <option value="">Wybierz usługę</option>
+      <option>Diagnostyka komputerowa</option>
+      <option>Wymiana oleju i filtrów</option>
+      <option>Naprawa hamulców</option>
+      <option>Serwis klimatyzacji</option>
+    </select>
+    <input type="date" id="date" required>
+    <input type="time" id="time" required>
+    <button type="submit">Zarezerwuj termin</button>
+  </form>
+</section>
+
+<section id="opinie">
+  <h2>Opinie Klientów</h2>
+  <blockquote>
+    "Świetna obsługa! Auto naprawione szybko i profesjonalnie. Polecam!"<br>
+    <strong>- Jan Kowalski</strong>
+  </blockquote>
+  <blockquote>
+    "Najlepszy warsztat w okolicy. Fachowa pomoc i dobre ceny."<br>
+    <strong>- Anna Nowak</strong>
+  </blockquote>
+  <blockquote>
+    "Miła obsługa, szybki termin i rzetelne podejście do klienta."<br>
+    <strong>- Michał Zieliński</strong>
+  </blockquote>
 </section>
 
 <footer>
